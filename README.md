@@ -12,7 +12,7 @@ This project was created to enhance immersion during chat-based roleplay, using 
 ## Usage Instructions
 1. Download `BotImmersion.py` and install all of the libraries requied to run;
 2. Create a bot using [BotFather](https://telegram.me/BotFather), giving it the name of your OC. Once it's created, you’ll be provided with an HTTP API token. Insert that string into the `TOKEN` variable.
-(Note: the number before the colon is the BotId, which must be added to the BOTS_ID list.)
+(Note: the number before the colon is the BotId, which must be added to the `BOTS_ID` list.)
 3. Retrieve the user's user_id and insert it into the `USER_ID` variable. I plan to publish the code for another bot that can do this with a simple command.
 4. Retrieve the chat ID where the bot will send messages and insert it into the `ON_ROLECHAT` variable. I also plan to publish the code for the previously mentioned bot to handle this.
 5. In the `BOTS_ID` variable, add an entry composed of: BotId (the number mentioned in step 2), UsernamePlayer (the player’s name. this can be anything you want) and IdPlayer (the USER_ID of the player)
